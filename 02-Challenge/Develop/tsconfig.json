@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                        /* Specify ECMAScript target version */
+    "module": "commonjs",                      /* Module code generation method (commonjs for Node.js) */
+    "strict": true,                            /* Enable all strict type-checking options */
+    "esModuleInterop": true,                   /* Allow default imports from modules without a default export */
+    "skipLibCheck": true,                      /* Skip type checking of declaration files (improves performance) */
+    "forceConsistentCasingInFileNames": true,  /* Ensure that file names are case-sensitive */
+    "outDir": "./dist",                        /* Output directory for compiled JavaScript */
+    "rootDir": "./src",                        /* Root directory of your source files */
+    
+    /* JavaScript Support */
+    "allowJs": true,                           /* Allow JavaScript files to be part of the program */
+    "checkJs": true,                           /* Enable error reporting for JavaScript files */
+    
+    /* Emit */
+    "noEmit": false,                           /* Emit JavaScript (set to true if you only want type-checking) */
+    
+    /* Type Checking */
+    "noImplicitAny": true,                     /* Report an error on 'any' type usage */
+    "strictNullChecks": true,                  /* Enforce strict null/undefined checks */
+    "strictFunctionTypes": true,               /* Enforce strict checking for function types */
+    "strictBindCallApply": true,               /* Ensure arguments match for 'bind', 'call', and 'apply' */
+    "strictPropertyInitialization": true,      /* Ensure all class properties are initialized */
+    "noImplicitThis": true,                    /* Enforce type checking for 'this' usage */
+    "exactOptionalPropertyTypes": true,        /* Enforce exact optional types */
+    "noImplicitReturns": true,                 /* Report an error if a function has no explicit return */
+    "noImplicitOverride": true                 /* Ensure overridden methods have the 'override' keyword */
+  },
+  "include": ["src/**/*"],                     /* Include all files under the 'src' directory */
+  "exclude": ["node_modules"]                  /* Exclude 'node_modules' folder from compilation */
+}
